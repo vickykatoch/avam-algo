@@ -1,0 +1,23 @@
+{
+  "name": "avam-algo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./algos/fib/test.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickykatoch/avam-algo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vickykatoch/avam-algo/issues"
+  },
+  "homepage": "https://github.com/vickykatoch/avam-algo#readme",
+  "devDependencies": {
+    "jest": "22.4.2"
+  }
+}
