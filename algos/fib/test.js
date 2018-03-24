@@ -1,6 +1,7 @@
 const { rFib , iFib } = require('./index');
 
 /**********************Recursive************************/
+
 test('Recursive Fib function is defined', () => {
   expect(typeof rFib).toEqual('function');
 });
@@ -23,6 +24,10 @@ test('Recursive : calculates correct fib value for 4', () => {
 
 test('Recursive : calculates correct fib value for 39', () => {
   expect(rFib(39)).toEqual(63245986);
+});
+
+test('Recursive : calculates correct fib value for 100', () => {
+  expect(rFib(100)).toEqual(354224848179262000000);
 });
 
 /**********************Iterative************************/
