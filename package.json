@@ -6,7 +6,7 @@
   "scripts": {
     "test-ls": "jest ./algos/linkedlist/test.js --watch",
     "test-tree": "jest ./algos/tree/test.js --watch",
-    "test-treelw": "jest ./algos/levelwidth/test.js --watch"
+    "test-sort": "jest ./algos/sort/test.js --watch"
   },
   "repository": {
     "type": "git",
