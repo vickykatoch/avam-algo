@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./algos/fib/test.js --watch"
+    "test-ls": "jest ./algos/linkedlist/test.js --watch",
+    "test-tree": "jest ./algos/tree/test.js --watch",
+    "test-treelw": "jest ./algos/levelwidth/test.js --watch"
   },
   "repository": {
     "type": "git",
