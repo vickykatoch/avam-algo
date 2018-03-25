@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\algos\\levelwidth\\index.js"
+            "program": "${workspaceFolder}\\algos\\sort\\merge.js"
         }
     ]
 }
